@@ -1,0 +1,36 @@
+/* Schedule Item Styling */
+.schedule-item {
+    border: 1px solid #e0e0e0; /* border */
+    border-radius: 0.5rem; /* rounded-lg */
+    padding: 1rem; /* p-4 */
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* shadow-md */
+    transition: transform 0.2s ease-in-out;
+    font-family: "Special Gothic Condensed One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  /* Topic Text */
+  .topic {
+    font-size: 1.25rem; /* text-xl */
+    font-weight: bold; /* font-bold */
+    color: #2b6cb0; /* text-blue-800 */
+  }
+  
+  /* Speaker Text */
+  .speaker {
+    color: #4a4a4a; /* text-gray-700 */
+  }
+  
+  /* Time Text */
+  .time {
+    font-size: 0.875rem; /* text-sm */
+    color: #6b7280; /* text-gray-500 */
+  }
+  
+  /* Hover Effect */
+  .schedule-item:hover {
+    transform: scale(1.02);
+  }
+  

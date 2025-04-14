@@ -1,0 +1,48 @@
+/* Food Container */
+.food-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem; /* p-4 */
+    transition: opacity 0.5s ease-in-out;
+    font-family: "Special Gothic Condensed One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  /* Food Title */
+  .food-title {
+    font-size: 1.875rem; /* text-3xl */
+    font-weight: bold; /* font-bold */
+    margin-bottom: 1rem; /* mb-4 */
+  }
+  
+  /* List Styling */
+  .food-list {
+    list-style-type: disc;
+    list-style-position: inside;
+    padding-left: 1.5rem; /* Adjust spacing for list */
+    margin-top: 0; /* Remove default margin-top */
+  }
+  
+  /* List Items */
+  .food-list li {
+    margin-bottom: 0.5rem; /* space-y-2 equivalent */
+    font-size: 1rem; /* Default size for list items */
+  }
+  
+  /* Smooth Fade-in Transition */
+  .food-container {
+    opacity: 0;
+    animation: fadeIn 0.5s forwards;
+  }
+  
+  /* Fade-in Animation */
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  

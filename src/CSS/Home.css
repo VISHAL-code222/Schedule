@@ -1,0 +1,100 @@
+/* Home Container */
+.home-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem; /* p-4 */
+    opacity: 0;
+    animation: fadeIn 0.5s forwards;
+  }
+  
+  /* Home Title */
+  .home-title {
+    font-size: 1.875rem; /* text-3xl */
+    font-weight: bold; /* font-bold */
+    margin-bottom: 1rem; /* mb-4 */
+    font-family: "Special Gothic Condensed One", sans-serif;
+    font-weight: 400;
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  /* Home Description */
+  .home-description,
+  .home-location,
+  .home-date {
+    margin-bottom: 0.5rem; /* mb-2 */
+    font-size: 1rem; /* Default font size */
+    font-family: "Special Gothic Condensed One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  /* Speakers Section */
+  .speakers-title {
+    font-size: 1.5rem; /* text-2xl */
+    font-weight: 600; /* font-semibold */
+    margin-top: 1.5rem; /* mt-6 */
+    margin-bottom: 0.5rem; /* mb-2 */
+  }
+  
+  /* Speakers Grid */
+  .speakers-grid {
+    display: grid;
+    gap: 1rem; /* gap-4 */
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Responsive grid */
+  }
+  
+  /* Speaker Card */
+  .speaker-card {
+    border: 1px solid #e0e0e0; /* border */
+    border-radius: 0.75rem; /* rounded-lg */
+    padding: 1rem; /* p-4 */
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* shadow */
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  }
+  
+  /* Speaker Avatar */
+  .speaker-avatar {
+    width: 4rem; /* w-16 */
+    height: 4rem; /* h-16 */
+    border-radius: 50%; /* rounded-full */
+    margin-bottom: 0.5rem; /* mb-2 */
+    object-fit: cover; /* object-cover */
+  }
+  
+  /* Speaker Name */
+  .speaker-name {
+    font-weight: bold; /* font-bold */
+    font-size: 1.125rem; /* text-lg */
+  }
+  
+  /* Speaker Topic */
+  .speaker-topic {
+    font-size: 0.875rem; /* text-sm */
+    color: #4a4a4a; /* text-gray-600 */
+  }
+  
+  /* Speaker Time */
+  .speaker-time {
+    font-size: 0.75rem; /* text-xs */
+    color: #6b7280; /* text-gray-500 */
+    margin-top: 0.25rem; /* mt-1 */
+  }
+  
+  /* Hover Effect */
+  .speaker-card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* hover:shadow-lg */
+  }
+  
+  /* Fade-in Animation */
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  

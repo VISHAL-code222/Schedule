@@ -1,0 +1,40 @@
+/* Conduct Container */
+.conduct-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem; /* p-4 */
+    transition: opacity 0.5s ease-in-out;
+    font-family: "Special Gothic Condensed One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  /* Title Styling */
+  .conduct-title {
+    font-size: 1.875rem; /* text-3xl */
+    font-weight: bold; /* font-bold */
+    margin-bottom: 1rem; /* mb-4 */
+  }
+  
+  /* Paragraph Styling */
+  .conduct-paragraph {
+    margin-bottom: 0.5rem; /* mb-2 */
+    font-size: 1rem; /* Default size for paragraphs */
+  }
+  
+  /* Smooth Fade-in Transition */
+  .conduct-container {
+    opacity: 0;
+    animation: fadeIn 0.5s forwards;
+  }
+  
+  /* Fade-in Animation */
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  

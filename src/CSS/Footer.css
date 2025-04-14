@@ -1,0 +1,46 @@
+/* General Footer Styling */
+.footer {
+    background-color: #1E3A8A; /* bg-blue-900 */
+    color: white;
+    padding: 1.5rem 0; /* py-6 */
+    margin-top: 2.5rem; /* mt-10 */
+    font-family: "Special Gothic Condensed One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  /* Container Styling */
+  .footer-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem; /* px-4 */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap: 1rem; /* gap-4 */
+  }
+  
+  /* Text Styling */
+  .footer-text {
+    font-size: 0.875rem; /* text-sm */
+  }
+  
+  /* Links Styling */
+  .footer-links {
+    display: flex;
+    gap: 1rem; /* space-x-4 */
+    font-size: 0.875rem; /* text-sm */
+  }
+  
+  .footer-link {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .footer-link:hover {
+    text-decoration: underline;
+  }
+  

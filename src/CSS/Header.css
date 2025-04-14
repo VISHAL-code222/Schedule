@@ -1,0 +1,61 @@
+/* General Header Styling */
+.header {
+    background-color: #2b6cb0; /* bg-blue-800 */
+    color: white;
+    padding: 1rem; /* p-4 */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* shadow-md */
+  }
+  
+  /* Navigation Container */
+  .nav-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem; /* For spacing */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .nav-container h1{
+    font-family: "Special Gothic Condensed One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 28px;
+  }
+  
+  /* Logo Styling */
+  .logo {
+    font-size: 1.5rem; /* text-2xl */
+    font-weight: bold; /* font-bold */
+  }
+  
+  /* Navigation Links */
+  .nav-links {
+    display: flex;
+    gap: 1.4rem; /* space-x-4 */
+    font-size: 0.875rem; /* text-sm */
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: white;
+ 
+      font-family: "Special Gothic Condensed One", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 20px;
+    
+    
+  }
+  
+  .nav-link:hover {
+    text-decoration: none;
+  }
+  
+  /* Responsive Navigation for Larger Screens */
+  @media (min-width: 768px) {
+    .nav-links {
+      font-size: 1rem; /* md:text-base */
+    }
+  }
+  
